@@ -1,3 +1,2 @@
-void rev_string(char *s);
-void puts2(char *str);
+kvoid puts2(char *str);
 
