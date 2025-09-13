@@ -6,7 +6,7 @@
  * @c: character to locate
  *
  * Return: pointer to first occurrence of c in s,
- *         or NULL if c is not found
+ *         or 0 if c is not found
  */
 char *_strchr(char *s, char c)
 {
@@ -17,10 +17,8 @@ char *_strchr(char *s, char c)
 		s++;
 	}
 
-	/* Check for terminating null byte if c == '\0' */
 	if (*s == c)
 		return (s);
 
-	return (NULL);
+	return (0);
 }
-
