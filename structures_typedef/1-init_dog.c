@@ -1,3 +1,4 @@
+#include <stddef.h>
 #include "dog.h"
 
 /**
@@ -17,3 +18,4 @@ d->name = name;
 d->age = age;
 d->owner = owner;
 }
+
